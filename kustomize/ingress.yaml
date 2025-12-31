@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-nginx"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  name: devops-jedi-compendium
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: compendium.sanch.pet
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: devops-jedi-compendium
+                port:
+                  number: 8080
+  tls:
+    - hosts:
+      - compendium.sanch.pet
+      secretName: compendium-sanch-pet-tls
