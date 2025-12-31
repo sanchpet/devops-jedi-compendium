@@ -3,7 +3,6 @@ FROM node:22-slim AS builder
 WORKDIR /usr/src/app
 
 COPY quartz/ .
-COPY content/ ./content
 
 RUN npm ci && npx quartz build
 
