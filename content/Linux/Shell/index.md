@@ -2,63 +2,60 @@
 tags:
   - linux
   - bash
+title: Shell
+aliases:
+  - Shell
 ---
-Работа в оболочке - одна из главных вещей, с которых стоит начинать знакомство с [[Linux]]. Это наша оснастка по выполнению действий в системе, с помощью команд мы настраиваем всё остальное. 
-
-# Потоки ввода и вывода (I/O streams)
+Working in the shell is one of the main things you should start with when getting to know [[Linux]]. It's our toolkit for performing actions in the system; with commands, we configure everything else.
+# Input/Output Streams (I/O streams)
 ## stdin
-Направить файл на стандартный ввод программы:
+Send a file to a program’s standard input:
 ```shell
 head < /proc/cpuinfo
 ```
 ## stdout
-Имеет идентификатор потока 1 (Stream ID)
-Вывести команду в файл:
+Has stream ID 1. Write command output to a file:
 ```shell
 command > file # перезаписать файл
 command >> file # добавить в файл снизу
 ```
-В `bash`, чтобы избежать затирания файлов, можно использовать параметр `set -C`. 
-Направить вывод команды на ввод другой команды: `|`
+In `bash`, to avoid overwriting files, you can use the `set -C` option.  
+Pipe the output of one command into another’s input with `|`:
 ```shell
 head /proc/cpuinfo | tr a-z A-Z
 ```
 ## stderr
-Имеет идентификатор потока 2
-Направить ошибки в файл:
+Has stream ID 2. Send errors to a file:
 ```shell
 ls /ffff 2> err
 ```
-Направить в то же место, куда направляется `stdout`:
+Send errors to the same place as `stdout`:
 ```shell
 ls /fff > f 2>&1
 ```
-
-# Команды оболочки
-### Работа с файлами
+# Shell Commands (my notes)
+## File operations
 - [[cat]]
 - [[ln]]
 - [[ls]]
 - [[touch]]
 - [[flock]]
-### Сеть
+## Network
 - [[dig]]
 - [[iperf]]
 - [[ping]]
 - [[ssh]]
 - [[tcpdump]]
 - [[wget]]
-### Форматирование текста
+## Text formatting
 - [[echo]]
-### Диски и файловые системы
+## Disks and filesystems
 - [[gdisk]]
-### Процессы, ресурсы и мониторинг
+## Processes, resources, and monitoring
 - [[htop]]
-- [[strace]]
-### Другое
+- [[strace]]    
+## Other
 - [[openssl]]
-
-
 
 
 

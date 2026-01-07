@@ -3,18 +3,21 @@ title: Linux
 aliases:
   - Linux
 ---
-Для меня понимание Linux на глубоком уровне сводится к освоению следующих больших тем. Все авторы используют разную детализацию, но это мой актуальный взгляд. Я бы шёл именно в таком порядке изучения этих тем. Порядок их освоения построен мною субъективно по тому, как часто я сам взаимодействую с этим при работе с системой на бытовом уровне и при решении рабочих задач:
-- Общие сведения о системе
-- Работа в оболочке (shell) - команды и сценарии
-- Работа с файлами: устройства, диски, файловые системы
-- Тюнинг системы - настройка основных служб
-- Работа с процессами и ресурсами системы
-- Настройка сети
-- Процесс загрузки системы: ядро и пользовательское пространство
-Я люблю подход, когда сначала изучается внутреннее устройство системы, а уже потом объясняется, как в ней работать. Но, кажется, что большинству он не подходит, тем более когда охота поскорее освоить тему для прикладных задач. Поэтому предлагаю такой порядок рассмотрения тем.
+For me, understanding Linux on a deep level comes down to mastering the following major areas. Different authors use varying levels of detail, but this is my current view. I would study these topics in exactly this order. The order is based on how often I personally interact with these aspects when working with the system in everyday use and solving professional tasks:
+- General information about the system
+- [[Linux/Shell/index|Shell]] — working in the command shell, commands, and scripting
+- Working with files: [[Devices]], disks, [[Filesystems]]
+- System tuning — configuring core services
+- Working with processes and system resources
+- Network configuration
+- System boot process: kernel and user space
 
-> Интерес к устройству Linux затрагивает разные сферы жизни. Профессионалы в сфере DevOps и разработчики должны знать почти всю информацию, которая рассматривается в этой книге. Архитекторы и разработчики программного обеспечения Linux также должны знать это, чтобы пользоваться операционной системой наилучшим образом. Для исследователей и студентов, часто работающих в своих собственных системах Linux, будет полезно узнать, почему в системе все устроено именно так, а не иначе, что и рассказывается в книге. Кроме того, есть ещё и любители - люди, которые просто проводят время за своими компьютерами ради развлечения, выгоды или того и другого сразу.
+I like the approach where you first study the internal structure of the system, and only then learn how to work within it. But it seems that this approach doesn’t suit most people, especially when they want to grasp the topic quickly for practical purposes. Therefore, I suggest discussing the topics in this order.
+
+> Your interest in learning how Linux works may have come from any number of sources. In the professional realm, operations and DevOps folks need to know nearly everything that you’ll find in this book. Linux software architects and developers should also know this material in order to make the best use of the operating system. Researchers and students, often left to run their own Linux systems, will also find that this book provides useful explanations for why things are set up the way they are. Then there are the tinkerers—people who just love to play around with their computers for fun, profit, or both. Want to know why certain things work while others don’t? Want to know what happens if you move something around? You’re probably a tinkerer.
 
 ---
-Источники:
-1. Брайан Уорд - Внутреннее устройство Linux
+
+**Sources:**
+1. Brian Ward — _How Linux Works: What Every Superuser Should Know_
+2. [vimgenius.com](https://vimgenius.com/)

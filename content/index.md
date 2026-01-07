@@ -1,15 +1,15 @@
 ---
-title: Компендиум DevOps Джедая
+title: The DevOps Jedi Compendium
 ---
-Привет!
+Hello!
 
-Рад, что вы попали сюда. Сейчас страница находится в разработке, и я пока не делюсь ей публично. Тем не менее, раз вы здесь, можете осмотреться!
+I'm glad you made it here. The page is currently under development, and I'm not sharing it publicly yet. That said, since you're here, feel free to take a look around!
 
-Проект "Компендиум DevOps Джедая" для меня выполняет несколько важных функций. Здесь будет полное описание моего пути, как DevOps-инженера, и все важные заметки о профессиональной жизни, написанные доступным способом. Это можно назвать личной базой знаний, но это не склад документации по разным продуктам или программам - скорее способ напоминать себе самые важные вещи. 
+The "Jedi DevOps Compendium" project serves several important purposes for me. It will contain a complete description of my journey as a DevOps engineer, along with all the key notes on my professional life, written in an accessible way. This can be called a personal knowledge base, but it's not a dump of documentation for various products or programs—rather, it's a way to remind myself of the most important things.
 
-Также я хочу сделать эту страницу классным подспорьем для всех DevOps-инженеров, которые хотят учиться у коллег. Поскольку здесь я рассказываю о том, как и чему учился сам, делюсь важными заметками и ссылками на источники и образовательные материалы, каждый сможет использовать эту страницу для расширения своего кругозора и обретения новых компетенций.
+I also want to make this page a great resource for all DevOps engineers who want to learn from their peers. Since I share how and what I learned myself, along with important notes and links to sources and educational materials, anyone can use this page to broaden their horizons and acquire new competencies.
 
-Сейчас я только формирую содержание. Здесь есть в том числе мои "полевые" или заготовочные заметки, в которых может быть мало содержательного. Я продолжаю разбираться с движком [Quartz](https://quartz.jzhao.xyz) и постепенно привожу заметки в порядок.
+Right now, I'm just forming the content. There are also my "field" or draft notes here, which may lack substance. I'm continuing to figure out the [Quartz](https://quartz.jzhao.xyz/) engine and gradually organizing the notes.
 
-Список основных тем:
+List of main topics:
 - [[Linux/index|Linux]]
