@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: website
-        image: sanchpet/devops-jedi-compendium:v0.0.5
+        image: sanchpet/devops-jedi-compendium:v0.0.6
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
@@ -33,7 +33,7 @@ spec:
           initialDelaySeconds: 5
           periodSeconds: 10
           timeoutSeconds: 5
-          failureThreshold: 3 
+          failureThreshold: 3
         readinessProbe:
           httpGet:
             path: /
@@ -41,7 +41,7 @@ spec:
           initialDelaySeconds: 5
           periodSeconds: 10
           timeoutSeconds: 5
-          failureThreshold: 3 
+          failureThreshold: 3
         resources:
           limits:
             memory: 100Mi

@@ -21,4 +21,4 @@ repos:
     rev: v0.45.0
     hooks:
       - id: markdownlint
-        args: [--fix, --disable, MD013, MD033, --]
+        args: [--fix, --disable, MD013, MD033, MD041, MD025, --]
